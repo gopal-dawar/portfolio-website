@@ -1,0 +1,40 @@
+/* Perspective wrapper */
+.perspective {
+  perspective: 800px;
+}
+
+/* Sphere */
+.sphere {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rot 27s linear infinite reverse;
+}
+
+/* Rings */
+.sphere i {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  transform-style: preserve-3d;
+  box-shadow: 0 0 80px rgba(255, 255, 255, 0.12),
+    inset 0 0 80px rgba(255, 255, 255, 0.25);
+}
+
+/* Y-axis rings */
+.sphere i:nth-child(-n + 16) {
+  transform: rotateY(calc(var(--i) * 11.25deg));
+}
+
+/* X-axis rings */
+.sphere i:nth-child(n + 17) {
+  transform: rotateX(calc((var(--i) - 16) * 11.25deg));
+}
+
+/* Rotation */
+@keyframes rot {
+  to {
+    transform: rotateY(360deg) rotateZ(360deg);
+  }
+}
