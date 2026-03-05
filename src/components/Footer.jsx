@@ -91,7 +91,7 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} Gopal Dawar. All rights reserved.</p>
 
           <a
-            href="/"
+            href="https://gopal-dawar.github.io/portfolio-website/"
             className="flex items-center gap-2 text-orange-500 hover:text-orange-400 transition"
           >
             Back to top <FaArrowUp />
