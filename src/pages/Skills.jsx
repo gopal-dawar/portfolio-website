@@ -30,9 +30,8 @@ const Skills = () => {
           data-aos="fade-up"
           data-aos-delay="150"
         >
-          A focused collection of technical skills built through consistent
-          practice and real-world development. These skills form the foundation
-          of my software engineering journey.
+          A focused collection of technical skills built through real-world
+          development and hands-on experience in full stack applications.
         </p>
 
         {/* Skill Cards */}
@@ -40,31 +39,23 @@ const Skills = () => {
           {/* Languages */}
           <div
             data-aos="fade-up"
-            className="bg-[#111] p-8 rounded-2xl shadow-lg
-                       transition-all duration-500
-                       hover:-translate-y-3 hover:shadow-orange-500/25"
+            className="bg-[#111] p-8 rounded-2xl shadow-lg hover:-translate-y-3 hover:shadow-orange-500/25 transition-all duration-500"
           >
             <h3 className="text-xl font-semibold mb-6 text-orange-500">
               Languages
             </h3>
             <div className="flex flex-wrap gap-4">
               {[
-                "Core Java",
-                "Java 8 (Streams, Lambda)",
+                "Java",
+                "Java 8+ (Streams, Lambda)",
                 "JavaScript (ES6+)",
-                "HTML5",
-                "CSS3",
                 "SQL",
               ].map((skill, i) => (
                 <span
                   key={skill}
                   data-aos="zoom-in"
                   data-aos-delay={200 + i * 80}
-                  className="px-4 py-2 text-sm rounded-full
-                             bg-orange-500/10 text-orange-400
-                             transition-all duration-300
-                             hover:bg-orange-500 hover:text-black
-                             hover:scale-110"
+                  className="px-4 py-2 text-sm rounded-full bg-orange-500/10 text-orange-400 hover:bg-orange-500 hover:text-black hover:scale-110 transition-all duration-300"
                 >
                   {skill}
                 </span>
@@ -76,9 +67,7 @@ const Skills = () => {
           <div
             data-aos="fade-up"
             data-aos-delay="100"
-            className="bg-[#111] p-8 rounded-2xl shadow-lg
-                       transition-all duration-500
-                       hover:-translate-y-3 hover:shadow-orange-500/25"
+            className="bg-[#111] p-8 rounded-2xl shadow-lg hover:-translate-y-3 hover:shadow-orange-500/25 transition-all duration-500"
           >
             <h3 className="text-xl font-semibold mb-6 text-orange-500">
               Frameworks
@@ -90,16 +79,14 @@ const Skills = () => {
                 "Spring Data JPA",
                 "Hibernate",
                 "JPA",
+                "Spring Security",
+                "JWT",
               ].map((skill, i) => (
                 <span
                   key={skill}
                   data-aos="zoom-in"
                   data-aos-delay={200 + i * 80}
-                  className="px-4 py-2 text-sm rounded-full
-                             bg-orange-500/10 text-orange-400
-                             transition-all duration-300
-                             hover:bg-orange-500 hover:text-black
-                             hover:scale-110"
+                  className="px-4 py-2 text-sm rounded-full bg-orange-500/10 text-orange-400 hover:bg-orange-500 hover:text-black hover:scale-110 transition-all duration-300"
                 >
                   {skill}
                 </span>
@@ -111,31 +98,43 @@ const Skills = () => {
           <div
             data-aos="fade-up"
             data-aos-delay="200"
-            className="bg-[#111] p-8 rounded-2xl shadow-lg
-                       transition-all duration-500
-                       hover:-translate-y-3 hover:shadow-orange-500/25"
+            className="bg-[#111] p-8 rounded-2xl shadow-lg hover:-translate-y-3 hover:shadow-orange-500/25 transition-all duration-500"
           >
             <h3 className="text-xl font-semibold mb-6 text-orange-500">
               Web Services
             </h3>
             <div className="flex flex-wrap gap-4">
-              {[
-                "REST API",
-                "HTTP Methods",
-                "JSON",
-                "JWT (Basic)",
-                "Swagger",
-                "Postman",
-              ].map((skill, i) => (
+              {["REST API", "HTTP Methods", "JSON", "Swagger", "Postman"].map(
+                (skill, i) => (
+                  <span
+                    key={skill}
+                    data-aos="zoom-in"
+                    data-aos-delay={200 + i * 80}
+                    className="px-4 py-2 text-sm rounded-full bg-orange-500/10 text-orange-400 hover:bg-orange-500 hover:text-black hover:scale-110 transition-all duration-300"
+                  >
+                    {skill}
+                  </span>
+                ),
+              )}
+            </div>
+          </div>
+
+          {/* Frontend */}
+          <div
+            data-aos="fade-up"
+            data-aos-delay="250"
+            className="bg-[#111] p-8 rounded-2xl shadow-lg hover:-translate-y-3 hover:shadow-orange-500/25 transition-all duration-500"
+          >
+            <h3 className="text-xl font-semibold mb-6 text-orange-500">
+              Frontend
+            </h3>
+            <div className="flex flex-wrap gap-4">
+              {["React.js", "HTML5", "CSS3", "Tailwind CSS"].map((skill, i) => (
                 <span
                   key={skill}
                   data-aos="zoom-in"
                   data-aos-delay={200 + i * 80}
-                  className="px-4 py-2 text-sm rounded-full
-                             bg-orange-500/10 text-orange-400
-                             transition-all duration-300
-                             hover:bg-orange-500 hover:text-black
-                             hover:scale-110"
+                  className="px-4 py-2 text-sm rounded-full bg-orange-500/10 text-orange-400 hover:bg-orange-500 hover:text-black hover:scale-110 transition-all duration-300"
                 >
                   {skill}
                 </span>
@@ -147,34 +146,24 @@ const Skills = () => {
           <div
             data-aos="fade-up"
             data-aos-delay="300"
-            className="bg-[#111] p-8 rounded-2xl shadow-lg
-                       transition-all duration-500
-                       hover:-translate-y-3 hover:shadow-orange-500/25"
+            className="bg-[#111] p-8 rounded-2xl shadow-lg hover:-translate-y-3 hover:shadow-orange-500/25 transition-all duration-500"
           >
             <h3 className="text-xl font-semibold mb-6 text-orange-500">
               Database
             </h3>
             <div className="flex flex-wrap gap-4">
-              {[
-                "MySQL",
-                "PostgreSQL",
-                "Database Design",
-                "Joins",
-                "Indexes",
-              ].map((skill, i) => (
-                <span
-                  key={skill}
-                  data-aos="zoom-in"
-                  data-aos-delay={200 + i * 80}
-                  className="px-4 py-2 text-sm rounded-full
-                             bg-orange-500/10 text-orange-400
-                             transition-all duration-300
-                             hover:bg-orange-500 hover:text-black
-                             hover:scale-110"
-                >
-                  {skill}
-                </span>
-              ))}
+              {["MySQL", "Database Design", "Joins", "Indexes"].map(
+                (skill, i) => (
+                  <span
+                    key={skill}
+                    data-aos="zoom-in"
+                    data-aos-delay={200 + i * 80}
+                    className="px-4 py-2 text-sm rounded-full bg-orange-500/10 text-orange-400 hover:bg-orange-500 hover:text-black hover:scale-110 transition-all duration-300"
+                  >
+                    {skill}
+                  </span>
+                ),
+              )}
             </div>
           </div>
 
@@ -182,9 +171,7 @@ const Skills = () => {
           <div
             data-aos="fade-up"
             data-aos-delay="400"
-            className="bg-[#111] p-8 rounded-2xl shadow-lg
-                       transition-all duration-500
-                       hover:-translate-y-3 hover:shadow-orange-500/25"
+            className="bg-[#111] p-8 rounded-2xl shadow-lg hover:-translate-y-3 hover:shadow-orange-500/25 transition-all duration-500"
           >
             <h3 className="text-xl font-semibold mb-6 text-orange-500">
               Tools
@@ -202,11 +189,7 @@ const Skills = () => {
                   key={skill}
                   data-aos="zoom-in"
                   data-aos-delay={200 + i * 80}
-                  className="px-4 py-2 text-sm rounded-full
-                             bg-orange-500/10 text-orange-400
-                             transition-all duration-300
-                             hover:bg-orange-500 hover:text-black
-                             hover:scale-110"
+                  className="px-4 py-2 text-sm rounded-full bg-orange-500/10 text-orange-400 hover:bg-orange-500 hover:text-black hover:scale-110 transition-all duration-300"
                 >
                   {skill}
                 </span>
@@ -218,29 +201,23 @@ const Skills = () => {
           <div
             data-aos="fade-up"
             data-aos-delay="500"
-            className="bg-[#111] p-8 rounded-2xl shadow-lg
-                       transition-all duration-500
-                       hover:-translate-y-3 hover:shadow-orange-500/25"
+            className="bg-[#111] p-8 rounded-2xl shadow-lg hover:-translate-y-3 hover:shadow-orange-500/25 transition-all duration-500"
           >
             <h3 className="text-xl font-semibold mb-6 text-orange-500">
               Cloud
             </h3>
             <div className="flex flex-wrap gap-4">
-              {["AZ-900", "Microsoft Azure Fundamentals", "Cloud Basics"].map(
+              {["Microsoft Azure (AZ-900)", "Cloud Fundamentals"].map(
                 (skill, i) => (
                   <span
                     key={skill}
                     data-aos="zoom-in"
                     data-aos-delay={200 + i * 80}
-                    className="px-4 py-2 text-sm rounded-full
-                             bg-orange-500/10 text-orange-400
-                             transition-all duration-300
-                             hover:bg-orange-500 hover:text-black
-                             hover:scale-110"
+                    className="px-4 py-2 text-sm rounded-full bg-orange-500/10 text-orange-400 hover:bg-orange-500 hover:text-black hover:scale-110 transition-all duration-300"
                   >
                     {skill}
                   </span>
-                )
+                ),
               )}
             </div>
           </div>

@@ -9,18 +9,20 @@ const Footer = () => {
       <div className="relative max-w-6xl mx-auto px-6 pt-20 pb-10">
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
+          
           {/* Branding */}
           <div>
             <h2 className="text-3xl font-bold text-white mb-4">
               Gopal <span className="text-orange-500">Dawar</span>
             </h2>
             <p className="text-sm leading-relaxed max-w-sm">
-              Java Full Stack Developer focused on building scalable backend
-              systems and modern, responsive web applications.
+              Java Full Stack Developer with 1+ years of experience building 
+              scalable backend systems and responsive web applications using 
+              Spring Boot and React.js.
             </p>
           </div>
 
-          
+          {/* Navigation */}
           <div>
             <h3 className="text-lg font-semibold text-white mb-5">Explore</h3>
             <ul className="space-y-3 text-sm">
@@ -52,7 +54,7 @@ const Footer = () => {
 
             <div className="flex gap-5 mb-6">
               <a
-                href="https://github.com/"
+                href="https://github.com/gopal-dawar"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 rounded-full bg-[#111] hover:bg-orange-500 hover:text-black transition transform hover:-translate-y-1"
@@ -61,7 +63,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://linkedin.com/"
+                href="https://www.linkedin.com/in/gopaldawar/"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 rounded-full bg-[#111] hover:bg-orange-500 hover:text-black transition transform hover:-translate-y-1"
@@ -70,7 +72,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="mailto:your-email@gmail.com"
+                href="mailto:gopaldawar45@gmail.com"
                 className="p-3 rounded-full bg-[#111] hover:bg-orange-500 hover:text-black transition transform hover:-translate-y-1"
               >
                 <FaEnvelope />
@@ -78,7 +80,7 @@ const Footer = () => {
             </div>
 
             <p className="text-sm">
-              Open for opportunities, collaborations, and learning.
+              Open to full-time opportunities and real-world development projects.
             </p>
           </div>
         </div>
@@ -91,7 +93,7 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} Gopal Dawar. All rights reserved.</p>
 
           <a
-            href="/"
+            href="#home"
             className="flex items-center gap-2 text-orange-500 hover:text-orange-400 transition"
           >
             Back to top <FaArrowUp />

@@ -3,48 +3,166 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const projects = [
-  {
-    title: "Grocery Store 1",
-    category: "Frontend",
-    tech: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
-    desc: "A fully responsive grocery store website offering interactive products, search, authentication, and smooth user experience.",
-    img: "/proPhoto/groceryStore1.png",
-    url: "https://gopal-dawar.github.io/Grocery_store_website",
-  },
+  // ⭐ MAIN FULL STACK PROJECT
   {
     title: "Medicine Store Web Application",
     category: "Full Stack",
-    tech: ["Spring Boot", "React", "MySQL"],
-    desc: "Full stack application with CRUD operations and role-based access.",
-    img: "/proPhoto/medicine_store.png",
+    tech: ["Spring Boot", "React.js", "MySQL", "JWT"],
+    desc: "Full stack pharmacy management system with inventory, order management, authentication, and REST API integration.",
   },
+
+  // ⭐ SECURITY / AUTH
   {
-    title: "Travel Website",
-    category: "Frontend",
-    tech: ["HTML", "CSS", "JavaScript", "GSAP"],
-    desc: "Animated travel landing page with smooth UI interactions.",
-    img: "/projects/travel.png",
-  },
-  {
-    title: "REST API Practice",
+    title: "Spring Security Practice",
     category: "Backend",
-    tech: ["Spring Boot", "JPA", "Postman"],
-    desc: "Practice project focused on REST APIs and HTTP methods.",
-    img: "/projects/api.png",
+    tech: ["Spring Boot", "Spring Security", "JWT"],
+    desc: "Authentication and authorization system with role-based access control using Spring Security.",
   },
+
+  // ⭐ CORE BACKEND SYSTEMS
+  {
+    title: "Bank Account Management System",
+    category: "Backend",
+    tech: ["Spring Boot", "JPA", "MySQL"],
+    desc: "Bank account system with CRUD operations and exception handling.",
+  },
+  {
+    title: "Movie Ticket Booking System",
+    category: "Backend",
+    tech: ["Spring Boot", "JPA", "MySQL"],
+    desc: "Backend system for managing movie ticket booking and user operations.",
+  },
+  {
+    title: "Online Course Registration System",
+    category: "Backend",
+    tech: ["Spring Boot", "REST API", "MySQL"],
+    desc: "System for managing course registration with REST API endpoints.",
+  },
+  {
+    title: "Patient Record System",
+    category: "Backend",
+    tech: ["Spring Boot", "MySQL"],
+    desc: "Application to manage patient records and medical data efficiently.",
+  },
+  {
+    title: "Vehicle Registration System",
+    category: "Backend",
+    tech: ["Spring Boot", "REST API", "MySQL"],
+    desc: "System for storing and managing vehicle registration data.",
+  },
+  {
+    title: "Student Record Management System",
+    category: "Backend",
+    tech: ["Spring Boot", "REST API"],
+    desc: "Application for managing student records using layered architecture.",
+  },
+
+  // ⭐ INVENTORY / MANAGEMENT SYSTEMS
+  {
+    title: "Product Inventory Manager",
+    category: "Backend",
+    tech: ["Spring Boot", "MySQL"],
+    desc: "Product inventory system for managing stock, price, and product data.",
+  },
+  {
+    title: "Employee Directory System",
+    category: "Backend",
+    tech: ["Spring Boot", "REST API"],
+    desc: "System for managing employee data using REST APIs.",
+  },
+  {
+    title: "Library Book Catalog",
+    category: "Backend",
+    tech: ["Spring Boot", "MySQL"],
+    desc: "Library system for managing books and catalog operations.",
+  },
+
+  // ⭐ HIBERNATE PROJECTS
+  {
+    title: "Patient Record System (Hibernate)",
+    category: "Backend",
+    tech: ["Java", "Hibernate"],
+    desc: "CRUD-based patient management system using Hibernate.",
+  },
+  {
+    title: "Vehicle Registration System (Hibernate)",
+    category: "Backend",
+    tech: ["Java", "Hibernate"],
+    desc: "Vehicle management system with CRUD operations using Hibernate.",
+  },
+  {
+    title: "Library Catalog (Hibernate)",
+    category: "Backend",
+    tech: ["Java", "Hibernate"],
+    desc: "Book catalog system using Hibernate ORM.",
+  },
+  {
+    title: "Product Inventory Manager (Hibernate)",
+    category: "Backend",
+    tech: ["Java", "Hibernate"],
+    desc: "Inventory management system with CRUD operations.",
+  },
+  {
+    title: "Employee Directory (Hibernate)",
+    category: "Backend",
+    tech: ["Java", "Hibernate"],
+    desc: "Employee management system using Hibernate ORM.",
+  },
+
+  // ⭐ OTHER SPRING PROJECTS
+  {
+    title: "Feedback Collection System",
+    category: "Backend",
+    tech: ["Spring Boot"],
+    desc: "System for collecting and managing user feedback.",
+  },
+  {
+    title: "File Upload & Download System",
+    category: "Backend",
+    tech: ["Spring Boot"],
+    desc: "Application for uploading and downloading files with backend processing.",
+  },
+
+  // ⭐ FRONTEND PROJECTS
   {
     title: "Portfolio Website",
     category: "Frontend",
-    tech: ["React", "Tailwind", "AOS"],
-    desc: "Personal portfolio showcasing skills, journey, and projects.",
-    img: "/projects/portfolio.png",
+    tech: ["React", "Tailwind CSS", "AOS"],
+    desc: "Personal portfolio showcasing projects, skills, and experience.",
+    url: "https://gopal-dawar.github.io/portfolio-website/",
   },
   {
-    title: "Mini Java Projects",
-    category: "Mini Projects",
-    tech: ["Core Java"],
-    desc: "Collection of small Java programs to strengthen fundamentals.",
-    img: "/projects/mini.png",
+    title: "Grocery Store Website",
+    category: "Frontend",
+    tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    desc: "Responsive grocery store UI with product listing and cart features.",
+    url: "https://gopal-dawar.github.io/Grocery_store_website",
+  },
+  {
+    title: "Traveling Website",
+    category: "Frontend",
+    tech: ["HTML", "CSS", "JavaScript"],
+    desc: "Animated travel website with smooth UI interactions.",
+  },
+
+  // ⭐ PRACTICE / COLLECTION
+  {
+    title: "React Practice Projects",
+    category: "Frontend",
+    tech: ["React"],
+    desc: "Collection of React practice projects demonstrating components and hooks.",
+  },
+  {
+    title: "Java Practice Code",
+    category: "Backend",
+    tech: ["Java"],
+    desc: "Collection of Java programs for strengthening core concepts.",
+  },
+  {
+    title: "Interview Preparation Questions",
+    category: "General",
+    tech: ["Java", "DSA"],
+    desc: "Collection of interview preparation questions and solutions.",
   },
 ];
 

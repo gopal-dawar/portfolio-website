@@ -30,8 +30,9 @@ const Contact = () => {
           data-aos="fade-up"
           data-aos-delay="150"
         >
-          I’m open to opportunities, collaborations, and discussions. Feel free
-          to reach out if you’d like to connect or work together.
+          Java Full Stack Developer with 1+ years of experience working on
+          client-based applications using Java, Spring Boot, React.js, and
+          MySQL. Open to full-time opportunities and collaborative projects.
         </p>
 
         {/* Content */}
@@ -39,13 +40,15 @@ const Contact = () => {
           {/* Left Info */}
           <div data-aos="fade-right">
             <h3 className="text-2xl font-semibold mb-6">
-              Let’s build something meaningful together
+              Let’s discuss opportunities and build impactful solutions
             </h3>
 
             <p className="text-gray-400 mb-8 leading-relaxed">
-              Whether you have an opportunity, a project idea, or just want to
-              say hello, my inbox is always open. I enjoy discussing technology,
-              learning new things, and contributing to impactful projects.
+              If you have a job opportunity, project requirement, or
+              collaboration idea, feel free to reach out. I have hands-on
+              experience in developing REST APIs, integrating frontend and
+              backend systems, and working on client-based applications and
+              real-world development workflows.
             </p>
 
             {/* Contact Links */}
@@ -53,7 +56,7 @@ const Contact = () => {
               <div className="flex items-center gap-4">
                 <FaEnvelope className="text-orange-500" />
                 <a
-                  href="mailto:your-email@gmail.com"
+                  href="mailto:gopaldawar45@gmail.com"
                   className="hover:text-orange-500 transition"
                 >
                   gopaldawar45@gmail.com
@@ -98,8 +101,8 @@ const Contact = () => {
             <h4 className="text-xl font-semibold mb-6">Quick Contact</h4>
 
             <p className="text-gray-400 text-sm mb-6">
-              Prefer a quick message? Reach out directly via email and I’ll get
-              back to you as soon as possible.
+              For quick communication, feel free to reach out via email. I
+              usually respond within 24 hours.
             </p>
 
             <a
